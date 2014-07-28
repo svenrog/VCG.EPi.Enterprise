@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationAbout" xml:space="preserve">
+    <value>About (not implemented)</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>EPiServer 5 &amp; 6 data upgrade tool (beta)</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButtonOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="ClassesGenerated" xml:space="preserve">
+    <value>Classes generated</value>
+  </data>
+  <data name="ColumnAlias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="ColumnBlockQuestion" xml:space="preserve">
+    <value>Block?</value>
+  </data>
+  <data name="ColumnId" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ColumnName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ColumnTargetName" xml:space="preserve">
+    <value>Target name</value>
+  </data>
+  <data name="DocumentFilters" xml:space="preserve">
+    <value>Migration projects (.mgproj)|*.mgproj|All files (*.*)|*.*</value>
+  </data>
+  <data name="DocumentLoaded" xml:space="preserve">
+    <value>Document loaded successfully</value>
+  </data>
+  <data name="DocumentLoading" xml:space="preserve">
+    <value>Document loading {0:0.0} %</value>
+  </data>
+  <data name="DocumentOpening" xml:space="preserve">
+    <value>Opening document...</value>
+  </data>
+  <data name="DocumentSaved" xml:space="preserve">
+    <value>Document saved</value>
+  </data>
+  <data name="DocumentSaveFileName" xml:space="preserve">
+    <value>UnnamedMigrationProject</value>
+  </data>
+  <data name="DocumentSaveFilter" xml:space="preserve">
+    <value>Migration projects (.mgproj)|*.mgproj</value>
+  </data>
+  <data name="ErrorFormat" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="ExportAbortedNoData" xml:space="preserve">
+    <value>Export aborted, not enough data</value>
+  </data>
+  <data name="ExportAbortedNoMatches" xml:space="preserve">
+    <value>Export aborted, no matching properties</value>
+  </data>
+  <data name="ExportAbortedUser" xml:space="preserve">
+    <value>Export aborted by user</value>
+  </data>
+  <data name="ExportProgress" xml:space="preserve">
+    <value>Exporting...</value>
+  </data>
+  <data name="ExportSaveFileName" xml:space="preserve">
+    <value>UnnamedEPiServerExport</value>
+  </data>
+  <data name="ExportSaveFilter" xml:space="preserve">
+    <value>EPiServer data (.episerverdata)|*.episerverdata</value>
+  </data>
+  <data name="ExportSelectFolder" xml:space="preserve">
+    <value>Select folder for export</value>
+  </data>
+  <data name="FileImported" xml:space="preserve">
+    <value>File read successfully</value>
+  </data>
+  <data name="HeadingBaseNamespace" xml:space="preserve">
+    <value>Enter default namespace</value>
+  </data>
+  <data name="HeadingMapToTarget" xml:space="preserve">
+    <value>Map to target type</value>
+  </data>
+  <data name="HeadingMatchingProperties" xml:space="preserve">
+    <value>Matching properties:</value>
+  </data>
+  <data name="HeadingOptionsEPiServerVersion" xml:space="preserve">
+    <value>Target EPiServer version</value>
+  </data>
+  <data name="HeadingOptionsPageTypeAttributes" xml:space="preserve">
+    <value>Included page type attributes</value>
+  </data>
+  <data name="HeadingOptionsPropertyAttributes" xml:space="preserve">
+    <value>Included property attributes</value>
+  </data>
+  <data name="HeadingSourceFileContents" xml:space="preserve">
+    <value>Source file contents (.episerverdata)</value>
+  </data>
+  <data name="ImportFilters" xml:space="preserve">
+    <value>EPiServer data (.episerverdata)|*.episerverdata</value>
+  </data>
+  <data name="ImportSourceTitle" xml:space="preserve">
+    <value>Select source file</value>
+  </data>
+  <data name="ImportTargetTitle" xml:space="preserve">
+    <value>Select file for target mappings</value>
+  </data>
+  <data name="LogClassConflictFormat" xml:space="preserve">
+    <value>Exporter skipped {0}, conflicting file name</value>
+  </data>
+  <data name="LogGeneratingClassFormat" xml:space="preserve">
+    <value>Generating class '{0}'</value>
+  </data>
+  <data name="MenuCategoryExport" xml:space="preserve">
+    <value>_EXPORT</value>
+  </data>
+  <data name="MenuCategoryFile" xml:space="preserve">
+    <value>_FILE</value>
+  </data>
+  <data name="MenuCategoryImport" xml:space="preserve">
+    <value>_IMPORT</value>
+  </data>
+  <data name="MenuExportClasses" xml:space="preserve">
+    <value>Export EPiServer 7 class files...</value>
+  </data>
+  <data name="MenuExportImportFile" xml:space="preserve">
+    <value>Export EPiServer 7 import file...</value>
+  </data>
+  <data name="MenuImportSource" xml:space="preserve">
+    <value>Import EPiServer 5/6 data...</value>
+  </data>
+  <data name="MenuImportTarget" xml:space="preserve">
+    <value>Import EPiServer 7 target data...</value>
+  </data>
+  <data name="MenuNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="MenuOpen" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="MenuSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MenuSaveAs" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="OptionsEPiVersion7_1" xml:space="preserve">
+    <value>Version 7.1</value>
+  </data>
+  <data name="OptionsEPiVersion7_5" xml:space="preserve">
+    <value>Version 7.5</value>
+  </data>
+  <data name="UpgradeComplete" xml:space="preserve">
+    <value>Upgrade completed successfully</value>
+  </data>
+  <data name="UpgradeProgress" xml:space="preserve">
+    <value>Upgrading {0} %</value>
+  </data>
+  <data name="WindowTitleExportOptions" xml:space="preserve">
+    <value>Class export options</value>
+  </data>
+  <data name="WindowTitleOperationStatus" xml:space="preserve">
+    <value>Operation status</value>
+  </data>
+  <data name="WindowTitleRemap" xml:space="preserve">
+    <value>Remap properties (alias)</value>
+  </data>
+  <data name="MenuCategoryEdit" xml:space="preserve">
+    <value>_EDIT</value>
+  </data>
+  <data name="MenuPreferences" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="ButtonRestart" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="HeadingPreferencesLocalization" xml:space="preserve">
+    <value>Localization options</value>
+  </data>
+  <data name="PreferenceRestartNotice" xml:space="preserve">
+    <value>Changes will not take effect before application is restarted</value>
+  </data>
+  <data name="PreferenceUILanguage" xml:space="preserve">
+    <value>Interface language</value>
+  </data>
+  <data name="WindowTitlePreferences" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+</root>

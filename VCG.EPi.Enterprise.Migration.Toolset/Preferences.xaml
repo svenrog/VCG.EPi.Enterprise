@@ -1,0 +1,39 @@
+﻿<Controls:MetroWindow x:Class="VCG.EPi.Enterprise.Migration.Toolset.Preferences"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:p="clr-namespace:VCG.EPi.Enterprise.Migration.Toolset.Properties"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        Title="{x:Static p:Resources.WindowTitlePreferences}" WindowStartupLocation="CenterScreen" Height="159" Width="483" ResizeMode="NoResize" Closed="MetroWindow_Closed" Background="#FF1E1E1E" BorderThickness="1" BorderBrush="#FF566472">
+    <Controls:MetroWindow.Resources>
+        <DataTemplate x:Key="Name">
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="lblName" Text="{Binding NativeName, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" FontFamily="Segoe UI" />
+            </StackPanel>
+        </DataTemplate>
+    </Controls:MetroWindow.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="{x:Static p:Resources.HeadingPreferencesLocalization}" Margin="10,10,10,0" Grid.ColumnSpan="2" Height="78" VerticalAlignment="Top">
+            <Grid Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="25*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblLanguageSelect" Content="{x:Static p:Resources.PreferenceUILanguage}" HorizontalAlignment="Left" Margin="5,7,0,0" VerticalAlignment="Top"/>
+                <ComboBox x:Name="ApplicationLanguage" SelectionChanged="ApplicationLanguage_SelectionChanged" ItemTemplate="{DynamicResource Name}" Grid.Column="1" Margin="10,6,5,0" Height="27" VerticalAlignment="Top" BorderBrush="#FF3F3F46" Foreground="#FF686868"/>                
+            </Grid>
+        </GroupBox>
+        <Button Content="{x:Static p:Resources.ButtonRestart}" x:Name="btnRestart" Margin="0,0,10,8" Grid.Column="1" HorizontalAlignment="Right" Width="75" Height="24" VerticalAlignment="Bottom" Click="btnRestart_Click" IsDefault="True" IsEnabled="False" BorderBrush="#FF333337" FontFamily="/CGI.EPi.DataMigration;component/Resources/#Segoe UI"/>
+
+        <Label x:Name="lblRestartNotice" Content="{x:Static p:Resources.PreferenceRestartNotice}" Grid.ColumnSpan="2" Visibility="Hidden" HorizontalAlignment="Left" Margin="5,95,0,0" VerticalAlignment="Top" Foreground="#FF999999" FontStyle="Italic"/>
+    </Grid>
+
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo />
+    </Window.TaskbarItemInfo>
+</Controls:MetroWindow>

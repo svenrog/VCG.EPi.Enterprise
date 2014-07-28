@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationAbout" xml:space="preserve">
+    <value>Om (inte implementerad)</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>EPiServer 5 &amp; 6 datauppgraderingsverktyg (beta)</value>
+  </data>
+  <data name="ClassesGenerated" xml:space="preserve">
+    <value>Klasser genererades</value>
+  </data>
+  <data name="DocumentFilters" xml:space="preserve">
+    <value>Migrationsprojekt (.mgproj)|*.mgproj|Alla filer (*.*)|*.*</value>
+  </data>
+  <data name="DocumentLoaded" xml:space="preserve">
+    <value>Projektfilen laddades in</value>
+  </data>
+  <data name="DocumentLoading" xml:space="preserve">
+    <value>Projektfil laddas {0:0.0} %</value>
+  </data>
+  <data name="DocumentOpening" xml:space="preserve">
+    <value>Öppnar projektfil</value>
+  </data>
+  <data name="DocumentSaved" xml:space="preserve">
+    <value>Projektfil sparad</value>
+  </data>
+  <data name="DocumentSaveFileName" xml:space="preserve">
+    <value>Odöpt-migrationsprojekt</value>
+  </data>
+  <data name="DocumentSaveFilter" xml:space="preserve">
+    <value>Migrationsprojekt (.mgproj)|*.mgproj</value>
+  </data>
+  <data name="ErrorFormat" xml:space="preserve">
+    <value>Fel: {0}</value>
+  </data>
+  <data name="ExportAbortedNoData" xml:space="preserve">
+    <value>Export avbruten, saknas data</value>
+  </data>
+  <data name="ExportAbortedNoMatches" xml:space="preserve">
+    <value>Export avbruten, inga matchande egenskaper</value>
+  </data>
+  <data name="ExportAbortedUser" xml:space="preserve">
+    <value>Export avbruten av användaren</value>
+  </data>
+  <data name="ExportProgress" xml:space="preserve">
+    <value>Exporterar...</value>
+  </data>
+  <data name="ExportSelectFolder" xml:space="preserve">
+    <value>Välj mapp att exportera till</value>
+  </data>
+  <data name="FileImported" xml:space="preserve">
+    <value>Filen lästes in</value>
+  </data>
+  <data name="ImportFilters" xml:space="preserve">
+    <value>EPiServerdata (.episerverdata)|*.episerverdata</value>
+  </data>
+  <data name="ImportSourceTitle" xml:space="preserve">
+    <value>Välj källfil</value>
+  </data>
+  <data name="ImportTargetTitle" xml:space="preserve">
+    <value>Välj fil för målmappning</value>
+  </data>
+  <data name="LogClassConflictFormat" xml:space="preserve">
+    <value>Exporten hoppade över {0} på grund av filnamnskonflikt</value>
+  </data>
+  <data name="LogGeneratingClassFormat" xml:space="preserve">
+    <value>Genererar klass '{0}'</value>
+  </data>
+  <data name="MenuNew" xml:space="preserve">
+    <value>Nytt projekt</value>
+  </data>
+  <data name="MenuOpen" xml:space="preserve">
+    <value>Öppna projekt...</value>
+  </data>
+  <data name="MenuSave" xml:space="preserve">
+    <value>Spara projekt</value>
+  </data>
+  <data name="MenuSaveAs" xml:space="preserve">
+    <value>Spara projekt som...</value>
+  </data>
+  <data name="UpgradeComplete" xml:space="preserve">
+    <value>Uppgradering slutfördes</value>
+  </data>
+  <data name="UpgradeProgress" xml:space="preserve">
+    <value>Uppgraderar {0} %</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Ångra</value>
+  </data>
+  <data name="ButtonOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="ColumnAlias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="ColumnBlockQuestion" xml:space="preserve">
+    <value>Block?</value>
+  </data>
+  <data name="ColumnId" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ColumnName" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="ColumnTargetName" xml:space="preserve">
+    <value>Målnamn</value>
+  </data>
+  <data name="ExportSaveFileName" xml:space="preserve">
+    <value>Odöpt-EPiServerexport</value>
+  </data>
+  <data name="ExportSaveFilter" xml:space="preserve">
+    <value>EPiServerdata (.episerverdata)|*.episerverdata</value>
+  </data>
+  <data name="HeadingBaseNamespace" xml:space="preserve">
+    <value>Ange default namespace</value>
+  </data>
+  <data name="HeadingMapToTarget" xml:space="preserve">
+    <value>Matcha till måltyper</value>
+  </data>
+  <data name="HeadingMatchingProperties" xml:space="preserve">
+    <value>Matchande egenskaper</value>
+  </data>
+  <data name="HeadingOptionsEPiServerVersion" xml:space="preserve">
+    <value>Målversion för EPiServer</value>
+  </data>
+  <data name="HeadingOptionsPageTypeAttributes" xml:space="preserve">
+    <value>Inkluderade sidtypsattribut</value>
+  </data>
+  <data name="HeadingOptionsPropertyAttributes" xml:space="preserve">
+    <value>Inkluderade egenskapsattribut</value>
+  </data>
+  <data name="HeadingSourceFileContents" xml:space="preserve">
+    <value>Källfilsinnehåll (.episerverdata)</value>
+  </data>
+  <data name="MenuCategoryExport" xml:space="preserve">
+    <value>_EXPORTERA</value>
+  </data>
+  <data name="MenuCategoryFile" xml:space="preserve">
+    <value>_ARKIV</value>
+  </data>
+  <data name="MenuCategoryImport" xml:space="preserve">
+    <value>_IMPORTERA</value>
+  </data>
+  <data name="MenuExportClasses" xml:space="preserve">
+    <value>Exportera EPiServer 7-klasser...</value>
+  </data>
+  <data name="MenuExportImportFile" xml:space="preserve">
+    <value>Exportera EPiServer 7-dataimport...</value>
+  </data>
+  <data name="MenuImportSource" xml:space="preserve">
+    <value>Importera EPiServer 5/6-data...</value>
+  </data>
+  <data name="MenuImportTarget" xml:space="preserve">
+    <value>Importera EPiServer 7-måldata...</value>
+  </data>
+  <data name="OptionsEPiVersion7_1" xml:space="preserve">
+    <value>Version 7.1</value>
+  </data>
+  <data name="OptionsEPiVersion7_5" xml:space="preserve">
+    <value>Version 7.5</value>
+  </data>
+  <data name="WindowTitleExportOptions" xml:space="preserve">
+    <value>Inställningar för klassexport</value>
+  </data>
+  <data name="WindowTitleOperationStatus" xml:space="preserve">
+    <value>Processtatus</value>
+  </data>
+  <data name="WindowTitleRemap" xml:space="preserve">
+    <value>Mappa om egenskaper (med alias)</value>
+  </data>
+  <data name="ButtonRestart" xml:space="preserve">
+    <value>Starta om</value>
+  </data>
+  <data name="HeadingPreferencesLocalization" xml:space="preserve">
+    <value>Språkinställningar</value>
+  </data>
+  <data name="MenuCategoryEdit" xml:space="preserve">
+    <value>_REDIGERA</value>
+  </data>
+  <data name="MenuPreferences" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="PreferenceRestartNotice" xml:space="preserve">
+    <value>Vissa ändringar har effekt först efter applikationen startats om</value>
+  </data>
+  <data name="PreferenceUILanguage" xml:space="preserve">
+    <value>Gränssnittsspråk</value>
+  </data>
+  <data name="WindowTitlePreferences" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+</root>
